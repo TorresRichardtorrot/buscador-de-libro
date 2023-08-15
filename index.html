@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylefuncion.css">
+    <link rel="shortcut icon" href="3847372.webp" type="image/x-icon">
+    <title>libros</title>
+</head>
+
+<body>
+
+    <h1>Buscador de Libros </h1>
+
+    <div class="contenedor">
+
+
+
+        <form id="buscador">
+            <div class="row">
+
+                <div class="option-Nombre">
+
+                    <label for="Nombre">Nombre:</label>
+                    <select class="select" id="nombre">
+                        <option value="">Seleccione</option>
+                        <option value="El Alquimista">El Alquimista</option>
+                        <option value="Matar a un ruiseñor">Matar a un ruiseñor</option>
+                        <option value="1984">1984</option>
+                        <option value="Orgullo y Prejuicio">Orgullo y Prejuicio</option>
+                        <option value="El Gran Gatsby">El Gran Gatsby</option>
+                        <option value="El Guardián entre el Centeno">El Guardián entre el Centeno</option>
+                        <option value="El Hobbit">El Hobbit</option>
+                        <option value="El Señor de los Anillos">El Señor de los Anillos</option>
+                        <option value="Los Juegos del Hambre">Los Juegos del Hambre</option>
+                        <option value="Harry Potter y la Piedra Filosofal">Harry Potter y la Piedra Filosofal</option>
+                        <option value="El Código Da Vinci">El Código Da Vinci</option>
+                        <option value="Los Hombres que no Amaban a las Mujeres">Los Hombres que no Amaban a las Mujeres</option>
+                        <option value="Guía del Autoestopista Galáctico">Guía del Autoestopista Galáctico</option>
+                        <option value="El Resplandor">El Resplandor</option>
+                        <option value="Apocalipsis">Apocalipsis</option>
+                        <option value="La Sombra del Viento">La Sombra del Viento</option>
+                        <option value="Cien años de soledad">Cien años de soledad</option>
+                        <option value="La Odisea">La Odisea</option>
+                        <option value="El Principito">El Principito</option>
+                        <option value="Los Miserables">Los Miserables</option>
+                    </select>
+                </div>
+                </div>
+                
+        
+             
+                <div class="input3">
+                    <div class="four columns">
+                        <label for="">Categoria:</label>
+                        <select class="select" id="categoria">
+                            <option value="">Seleccione</option>
+                            <option value="">Ficción</option>
+                        </select>
+                    </div>
+                    <div class="four columns">
+                        <label for="autor">Autor:</label>
+                        <select class="select" id="autor">
+                            <option value="">Seleccione</option>
+                            <option value="J.D. Salinger">J.D. Salinger</option>
+                            <option value="Paulo Coelho">Paulo Coelho</option>
+                            <option value="Harper Lee">Harper Lee</option>
+                            <option value="George Orwell">George Orwell</option>
+                            <option value="Jane Austen">Jane Austen</option>
+                            <option value="F. Scott Fitzgerald">F. Scott Fitzgerald</option>
+                            <option value="J.R.R. Tolkien">J.R.R. Tolkien</option>
+                            <option value="Suzanne Collins">Suzanne Collins</option>
+                            <option value="J.K. Rowling">J.K. Rowling</option>
+                            <option value="Dan Brown">Dan Brown</option>
+                            <option value="Stieg Larsson">Stieg Larsson</option>
+                            <option value="Douglas Adams">Douglas Adams</option>
+                            <option value="Stephen King">Stephen King</option>
+                            <option value="Carlos Ruiz Zafón">Carlos Ruiz Zafón</option>
+                            <option value="Gabriel García Márquez">Gabriel García Márquez</option>
+                            <option value="Homero">Homero</option>
+                            <option value="Antoine de Saint-Exupéry">Antoine de Saint-Exupéry</option>
+                            <option value="Victor Hugo">Victor Hugo</option>
+                        </select>
+                    </div>
+                    <div class="four columns">
+                        <label for="edicio">Edicion:</label>
+                        <select class="select" id="edicion">
+                            <option value="">Seleccione</option>
+                            <option value="25º Aniversario">25º Aniversario</option>
+                            <option value="50º Aniversario">50º Aniversario</option>
+                            <option value="Edición revisada">Edición revisada</option>
+                            <option value="Edición Aniversario">Edición Aniversario</option>
+                            <option value="75º Aniversario">75º Aniversario</option>
+                            <option value="10º Aniversario">10º Aniversario</option>
+                            <option value="Edición Ilustrada">Edición Ilustrada</option>
+                            <option value="Edición Especial Ilustrada">Edición Especial Ilustrada</option>
+                            <option value="30º Aniversario">30º Aniversario</option>
+                            <option value="Edición Centenario">Edición Centenario</option>
+                            <option value="Edición Completa y Sin Cortes">Edición Completa y Sin Cortes</option>
+                            <option value="Edición conmemorativa">Edición conmemorativa</option>
+                            <option value="Edición clásica">Edición clásica</option>
+                        </select>
+                    </div>
+                </div>
+            
+        </form>
+
+
+        <h1>Resultados</h1>
+        <div class="encabezado"> 
+            <ul>
+                <li>Nombre</li>
+                <li>Categoria</li>
+                <li>Autor</li>
+                <li>Edicion</li>
+            </ul>
+        </div>
+        <div id="resultado">
+            
+            
+
+        </div>
+    </div>
+
+    <div class="sitio-web">
+        <div>Torres Richard</div> 
+        <div>Torres Richard</div>
+    </div>
+
+    <script src="dbfuncion.js"></script>
+    <script src="funcion.js"></script>
+
+</body>
+
+</html>
